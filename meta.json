@@ -1,0 +1,19 @@
+{
+ "flows": [
+  {"channel": "Meta", "headline": "Your AI companion texts first.", "paywall_opens_on": "the chat they just started", "note": "asks only their name; EVA writes first before any price"},
+  {"channel": "Apple Ads", "term": "eva", "headline": "Welcome to EVA AI.", "paywall_opens_on": "Yearly, with Yearly and Monthly as tabs", "note": "a Log in link on the first screen"},
+  {"channel": "Apple Ads", "term": "ai dating simulator", "headline": "Try EVA before you pay.", "paywall_opens_on": "both plans in weeks: $1.34 against $5.75", "note": "600 Neurons once, $11.99, if they close the paywall"}
+ ],
+ "prices": {"yearly": "$69.99", "monthly": "$24.99", "trial": "none", "source": "their iOS onboarding paywall as recorded (ScreensDesign replay); Google Play listing"},
+ "today": {"text": "every install meets “Create an account or log in”, seven questions, then the same “Unlock Premium” paywall", "source": "audit_frames"},
+ "asks": ["What’s your name?", "What’s your gender?", "What are you into?"],
+ "paywall": {"headline": "Unlock Premium", "uses_answers": false},
+ "rebuild": "one question per source, a first chat before the price, and a paywall that repeats the answer",
+ "ideas": [
+  {"n": 1, "title": "Open on the ad’s promise, ask for the account last", "screen": "Arrive", "outcome": "CR +5–10%"},
+  {"n": 2, "title": "A first message before the price", "screen": "First chat", "outcome": "CR +10–20%"},
+  {"n": 3, "title": "Ask one thing, and say it back on the paywall", "screen": "Paywall", "outcome": "CR +10–15%"},
+  {"n": 4, "title": "Show what Premium does, inside a chat", "screen": "First chat", "outcome": "CR +3–8%"},
+  {"n": 5, "title": "A close offer that fits where they came from", "screen": "On close", "outcome": "ARPU +5–10%"}
+ ]
+}
